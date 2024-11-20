@@ -1,0 +1,71 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding-top: 60px; /* For fixed navbar */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to top,#230b50, #2a0c60, #031987);
+    height: 100vh;
+    text-align: center;
+}
+
+/* Section Titles */
+/* .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    color: #333;
+} */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #6a11cb;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* About Section */
+#about{
+    /* background: linear-gradient(to left, #43c6ac, #191654); */
+
+}
+#about p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Skills Section */
+.skill-box {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.skill-box:hover {
+    transform: translateY(-10px);
+}
+
+/* Projects Section */
+.project-card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+    background: linear-gradient(to left, #43c6ac, #191654);
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+}
